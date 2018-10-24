@@ -6,13 +6,20 @@ public class StackMain {
 
         StackImpl stk = new StackImpl(5);
 
-        stk.push(1);
-        stk.push(3);
-        stk.printStack();
-        stk.pop();
-        stk.printStack();
-        stk.pop();
-        stk.printStack();
+        QueueImplStack qstk= new QueueImplStack();
+
+//        stk.push(1);
+//        stk.push(3);
+//        stk.printStack();
+//        stk.pop();
+//        stk.printStack();
+//        stk.pop();
+//        stk.printStack();
+
+        qstk.push(1);
+        qstk.push(3);
+        System.out.println(qstk.printStack());
+
 
     }
 
