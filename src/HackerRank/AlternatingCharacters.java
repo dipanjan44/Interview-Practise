@@ -20,7 +20,8 @@ public class AlternatingCharacters {
         for (int qItr = 0; qItr < q; qItr++) {
             String s = scanner.nextLine();
 
-            int result = alternatingCharacters(s);
+            AlternatingCharacters alt = new AlternatingCharacters();
+               int result=alt.alternatingCharacters(s);
 
             bufferedWriter.write(String.valueOf(result));
             bufferedWriter.newLine();
@@ -31,7 +32,7 @@ public class AlternatingCharacters {
     }
 
     /** implemented by Dipanjan **/
-    public static int alternatingCharacters(String s)
+    public int alternatingCharacters(String s)
     {
         Stack<Character> stk= new Stack<Character>();
         int count=0;

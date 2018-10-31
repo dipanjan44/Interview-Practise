@@ -5,14 +5,14 @@ import java.util.Stack;
 
 public class BalanceParenthesis {
 
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
+//
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println(balanceParenthesis(sc.next()));
+//
+//    }
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println(balanceParenthesis(sc.next()));
-
-    }
-
-    private static boolean balanceParenthesis(String inputString) {
+    public boolean balanceParenthesis(String inputString) {
 
         Stack<Character> stk = new Stack<Character>();
 

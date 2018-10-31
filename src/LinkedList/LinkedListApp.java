@@ -10,14 +10,16 @@ public class LinkedListApp {
         Node C = new Node(7);
         Node D = new Node (8);
         LinkedListImpl lImpl= new LinkedListImpl();
-        lImpl.pushNode(A);
+        lImpl.addEnd(A);
        // lImpl.deleteFirst();
         lImpl.addEnd(B);
-        lImpl.pushNode(C);
-        lImpl.addNode(B,D);
-        lImpl.printLinkedList();
-        lImpl.deleteAfter(C);
-        lImpl.printLinkedList();
+        lImpl.addEnd(C);
+        lImpl.printLinkedListIterator();
+        //lImpl.printLinkedList();
+        //System.out.println(lImpl.getNode(2));
+
+//        lImpl.deleteAfter(C);
+//        lImpl.printLinkedList();
 //        lImpl.deleteFirst();
 //        lImpl.printLinkedList();
     }

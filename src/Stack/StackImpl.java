@@ -1,6 +1,6 @@
 package Stack;
 
-public class StackImpl {
+public class StackImpl  {
 
     int top = -1;
     int[] stackArray;
@@ -23,6 +23,8 @@ public class StackImpl {
             top++;
             stackArray[top] = item;
         }
+
+
 
     public int pop() {
         if (!isEmpty()) {
@@ -52,6 +54,8 @@ public class StackImpl {
             i++;
         }
     }
+
+
 
 
 }
