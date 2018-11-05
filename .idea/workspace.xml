@@ -2,30 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07bca788-c7d9-4c21-8187-b4f3bfc74af6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ComparatorImpl/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparatorImpl/EmployeeApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparatorImpl/EmployeeIdComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparatorImpl/EmployeeLastNameComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HackerRank/AlternatingCharactersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HackerRank/BalanceParenthesisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IteratorImpl/MyArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SerializableImpl/EmployeeDeserial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SerializableImpl/EmployeeSerialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/BSTImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GraphTraversal/BFSImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GraphTraversal/DFSImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GraphTraversal/TraversalApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GraphTraversal/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HackerRank/MaxDuplicateCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HackerRank/SubstringCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/DeleteDuplicateNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaPractise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractise.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractise/HackerRank/AlternatingCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractise/HackerRank/AlternatingCharacters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractise/HackerRank/BalanceParenthesis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractise/HackerRank/BalanceParenthesis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractise/ComparatorImpl/EmployeeApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractise/ComparatorImpl/EmployeeApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractise/ComparatorImpl/EmployeeIdComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractise/ComparatorImpl/EmployeeIdComparator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaPractise/LinkedList/LinkedListApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractise/LinkedList/LinkedListApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractise/LinkedList/LinkedListImpl$LinkedListIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractise/LinkedList/LinkedListImpl$LinkedListIterator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaPractise/LinkedList/LinkedListImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractise/LinkedList/LinkedListImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractise/Stack/StackImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractise/Stack/StackImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractise/Stack/StackMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractise/Stack/StackMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HackerRank/AlternatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HackerRank/AlternatingCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HackerRank/BalanceParenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HackerRank/BalanceParenthesis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComparatorImpl/EmployeeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComparatorImpl/EmployeeApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComparatorImpl/EmployeeIdComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComparatorImpl/EmployeeIdComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedListApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/LinkedListApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/LinkedListImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/StackImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/StackImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,83 +32,71 @@
     <session id="-1086735455">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="29" />
+          <entry key="project.closed" value="35" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="7" />
-          <entry key="project.open.time.7" value="9" />
-          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.7" value="11" />
+          <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="30" />
+          <entry key="project.opened" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="71" />
+          <entry key="java" value="96" />
           <entry key="ser" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="71" />
+          <entry key="JAVA" value="96" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="53" />
-          <entry key="java" value="12698" />
+          <entry key="java" value="17688" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12698" />
+          <entry key="JAVA" value="17688" />
           <entry key="PLAIN_TEXT" value="53" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SerializableImpl/EmployeeSerialization.java">
+        <entry file="file://$PROJECT_DIR$/src/ComparatorImpl/EmployeeIdComparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#888#889#0" expanded="true" />
-                <element signature="e#989#990#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ComparatorImpl/Employee.java">
+        <entry file="file://$PROJECT_DIR$/src/HackerRank/SubstringCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
-              <folding>
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#767#768#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="600">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SerializableImpl/EmployeeDeserial.java">
+        <entry file="file://$PROJECT_DIR$/src/IteratorImpl/MyArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="641">
+              <caret line="59" column="62" selection-start-line="59" selection-start-column="62" selection-end-line="59" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -161,16 +143,25 @@
         <option value="$PROJECT_DIR$/src/HackerRank/AlternatingCharactersTest.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/KthNodefromEnd.java" />
         <option value="$PROJECT_DIR$/src/Tree/BSTImpl.java" />
-        <option value="$PROJECT_DIR$/src/LinkedList/LinkedListApp.java" />
-        <option value="$PROJECT_DIR$/src/LinkedList/LinkedListImpl.java" />
         <option value="$PROJECT_DIR$/src/Stack/StackImpl.java" />
         <option value="$PROJECT_DIR$/src/MyArray.java" />
         <option value="$PROJECT_DIR$/src/ComparatorImpl/EmployeeComparator.java" />
-        <option value="$PROJECT_DIR$/src/ComparatorImpl/EmployeeIdComparator.java" />
-        <option value="$PROJECT_DIR$/src/ComparatorImpl/EmployeeApp.java" />
         <option value="$PROJECT_DIR$/src/ComparatorImpl/Employee.java" />
         <option value="$PROJECT_DIR$/src/SerializableImpl/EmployeeSerialization.java" />
         <option value="$PROJECT_DIR$/src/SerializableImpl/EmployeeDeserial.java" />
+        <option value="$PROJECT_DIR$/src/ComparatorImpl/HashMapSorterByValue.java" />
+        <option value="$PROJECT_DIR$/src/ComparatorImpl/EmployeeIdComparator.java" />
+        <option value="$PROJECT_DIR$/src/ComparatorImpl/EmployeeApp.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/DeleteDuplicateNodes.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/LinkedListApp.java" />
+        <option value="$PROJECT_DIR$/src/GraphTraversal/Vertex.java" />
+        <option value="$PROJECT_DIR$/src/GraphTraversal/BFSImpl.java" />
+        <option value="$PROJECT_DIR$/src/GraphTraversal/TraversalApp.java" />
+        <option value="$PROJECT_DIR$/src/GraphTraversal/DFSImpl.java" />
+        <option value="$PROJECT_DIR$/src/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/LinkedListImpl.java" />
+        <option value="$PROJECT_DIR$/src/HackerRank/SubstringCheck.java" />
+        <option value="$PROJECT_DIR$/src/HackerRank/MaxDuplicateCharacters.java" />
       </list>
     </option>
   </component>
@@ -186,7 +177,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,18 +193,13 @@
               <item name="JavaPractise" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaPractise" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ComparatorImpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaPractise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaPractise" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SerializableImpl" type="462c0819:PsiDirectoryNode" />
+              <item name="IteratorImpl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -222,7 +207,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540994008021" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541087864887" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -250,46 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EmployeeDeserial">
-    <configuration name="EmployeeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ComparatorImpl.EmployeeApp" />
-      <module name="JavaPractise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ComparatorImpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeeDeserial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SerializableImpl.EmployeeDeserial" />
-      <module name="JavaPractise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SerializableImpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeeSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SerializableImpl.EmployeeSerialization" />
-      <module name="JavaPractise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SerializableImpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MaxDuplicateCharacters">
     <configuration name="LinkedListApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList.LinkedListApp" />
       <module name="JavaPractise" />
@@ -303,26 +249,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IteratorImpl.MyArray" />
+    <configuration name="MaxDuplicateCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HackerRank.MaxDuplicateCharacters" />
       <module name="JavaPractise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HackerRank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeSort" />
+      <module name="JavaPractise" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubstringCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HackerRank.SubstringCheck" />
+      <module name="JavaPractise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HackerRank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TraversalApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GraphTraversal.TraversalApp" />
+      <module name="JavaPractise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GraphTraversal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.LinkedListApp" />
-      <item itemvalue="Application.MyArray" />
-      <item itemvalue="Application.EmployeeApp" />
-      <item itemvalue="Application.EmployeeSerialization" />
-      <item itemvalue="Application.EmployeeDeserial" />
+      <item itemvalue="Application.TraversalApp" />
+      <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.SubstringCheck" />
+      <item itemvalue="Application.MaxDuplicateCharacters" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EmployeeDeserial" />
-        <item itemvalue="Application.EmployeeSerialization" />
-        <item itemvalue="Application.EmployeeApp" />
-        <item itemvalue="Application.MyArray" />
+        <item itemvalue="Application.MaxDuplicateCharacters" />
+        <item itemvalue="Application.SubstringCheck" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.TraversalApp" />
         <item itemvalue="Application.LinkedListApp" />
       </list>
     </recent_temporary>
@@ -361,7 +346,7 @@
     <frame x="55" y="23" width="1385" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19731943" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21221146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -370,12 +355,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45732483" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29936305" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.366879" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299363" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.41910827" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3299363" />
@@ -477,13 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HackerRank/BinaryStringPair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/StackImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -540,13 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HackerRank/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-421">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HackerRank/DivisiblePairSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-218">
@@ -590,13 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedListApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Stack/StackImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -604,17 +568,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedListImpl.java">
+    <entry file="file://$PROJECT_DIR$/employee.ser">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SerializableImpl/EmployeeSerialization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
+        <state relative-caret-position="178">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorImpl/MyArray.java">
+    <entry file="file://$PROJECT_DIR$/src/SerializableImpl/EmployeeDeserial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="165">
+          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComparatorImpl/HashMapSorterByValue.java" />
+    <entry file="file://$PROJECT_DIR$/src/ComparatorImpl/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -625,57 +600,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/employee.ser">
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/DeleteDuplicateNodes.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ComparatorImpl/EmployeeIdComparator.java">
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedListApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="165">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GraphTraversal/TraversalApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GraphTraversal/DFSImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GraphTraversal/BFSImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GraphTraversal/Vertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ComparatorImpl/EmployeeApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        <state relative-caret-position="945">
+          <caret line="69" column="103" selection-start-line="69" selection-start-column="103" selection-end-line="69" selection-end-column="103" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#296#306#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ComparatorImpl/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedListImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="1125">
+          <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
           <folding>
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SerializableImpl/EmployeeSerialization.java">
+    <entry file="file://$PROJECT_DIR$/src/HackerRank/BinaryStringPair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="390">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SerializableImpl/EmployeeDeserial.java">
+    <entry file="file://$PROJECT_DIR$/src/HackerRank/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HackerRank/MaxDuplicateCharacters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComparatorImpl/EmployeeIdComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HackerRank/SubstringCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IteratorImpl/MyArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="59" column="62" selection-start-line="59" selection-start-column="62" selection-end-line="59" selection-end-column="62" />
         </state>
       </provider>
     </entry>
