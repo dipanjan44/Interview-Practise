@@ -13,7 +13,7 @@ constant = 1500
 # build the inverted index for unigram from the cleaned corpus
 def build_inverted_index_unigram ():
     dir_name = os.getcwd ()
-    path = os.path.join (dir_name, 'ProcessedFiles')
+    path = os.path.join (dir_name, 'TestFiles')
     for filename in glob.glob (os.path.join (path, '*.txt')):
         with open (filename) as current_file:
             head, tail = os.path.split (filename)
@@ -50,6 +50,17 @@ def read_query (queryFile):
     return query_map
 
 
+# get the document list for the entire query
+def get_doc_list (search_query):
+    doc_list = []
+    for item in search_query:
+        if inverted_index.get (item) is not None:
+            doc_list.extend (inverted_index.get (item))
+    doc_list = set (doc_list)
+    #print ("This is the doc_list" + str (doc_list))
+    return doc_list
+
+
 # find the scores using LM Dirichlet algorithm
 def find_scores_LM_Dirichlet ():
     query_map = read_query (queryFile)
@@ -59,13 +70,14 @@ def find_scores_LM_Dirichlet ():
     for k in query_map.keys ():
         # get the query terms  from the query map
         search_query = query_map.get (k)
+        # get the document list for the query
+        doc_list_for_query = get_doc_list (search_query)
         doc_score_term = {}
         # print(search_query)
         # pick each query term and check whether it exists in the corpus
         for term in search_query:
-            if term not in index_map.keys ():
-                break
-            else:
+            # if none of the terms of the query match, no output
+            if term in index_map.keys ():
                 doc_list = {}
                 doc_map = {}
                 # if query term exists , fetch the inverted list for that term
@@ -74,11 +86,14 @@ def find_scores_LM_Dirichlet ():
                 # print ("The inverted list for the search term : " + str (inverted_list_search_term))
                 # print("The inverted list for search term:->   :" +word +" : " +str(inverted_list_search_term))
                 # Calculate the scores for each docID for the given search term
-                for docId in inverted_list_search_term.keys ():
+                for docId in doc_list_for_query:
                     document_length = calculate_doc_length (docId)
                     # print ("The document length for documentId : " + str (
                     # docId) + " is : " + str (document_length))
-                    search_term_frequency_in_document = inverted_list_search_term.get (docId)
+                    if inverted_list_search_term.get (docId) is None:
+                        search_term_frequency_in_document = 0
+                    else:
+                        search_term_frequency_in_document = inverted_list_search_term.get (docId)
                     # print ("The search term frequency in document :" + str (search_term_frequency_in_document))
                     search_term_frequency_in_corpus = term_frequency_in_corpus (term)
                     # print ("The search term frequency in corpus :" + str (search_term_frequency_in_corpus))
@@ -87,7 +102,7 @@ def find_scores_LM_Dirichlet ():
                     numerator = (search_term_frequency_in_document + (
                             search_term_frequency_in_corpus / corpus_length) * constant)
                     denominator = document_length + constant
-                    curr_score_for_term = math.log (numerator / denominator)
+                    curr_score_for_term = math.log10 (numerator / denominator)
                     # print("The current score is : " + str(term) + " : " +str(curr_score_for_term))
                     # add curr_score for the doc in a map with the docid
                     doc_map[docId] = curr_score_for_term
@@ -161,8 +176,8 @@ def write_to_file_ranked_documents ():
         while (count < len (doc_list) and count < 100):
             doc_id = doc_list[count].__getitem__ (0)
             score = doc_list[count].__getitem__ (1)
-            #print (doc_id)
-            #print (score)
+            # print (doc_id)
+            # print (score)
             file.write (
                 str (queryid) + " : Q0 : " + str (doc_id) + " : " + str (rank) + " : " + str (
                     score) + " : " + " LMDirichlet" "\n")
